@@ -1,15 +1,6 @@
 # pd2-pacman
 
-## Score
-- GUI 5%
-- Dashboard 5%
-- Dots 5%
-- Power Pellets 5%
-- Pac-man 10%
-- Ghost 10%
-- Polymorphism 10%
-- Demo 50%
-- (Bonus up to 20%)
+![](https://i.imgur.com/R8BI6FS.png)
 
 ## Power Pellets
 
@@ -32,5 +23,13 @@
 
 
 ## Polymorphism
-- You should use polymorphism technique on class `Pacman` and `Ghost`.
-- Both of them should implement method `move()`, and be called by pointer of base class.
+- polymorphism technique on class `Pacman` and `Ghost`.
+- Both of them implement method `move()`, and be called by pointer of base class.
+
+## Code
+
+- ghost.cpp：Ghost的移動規則
+- main.cpp：顯示mainwindow
+- mainwindow.cpp：遊戲初始化、設定和輸贏判斷
+- moveobject.cpp：Polymorphism
+- pacman.cpp：Pac-man的移動規則
